@@ -9,5 +9,14 @@ while variable <4>0:
     text=int(input('you can choose between the following 1.the wise tree 2. an information broker'))
     if text == 1 
         print 
+
+    elif text == 2
+        print('you went to a information broker because surely they had the information you wanted so you went and asked where santa was being kept by the kidnappers')
+        val2=int(input('he said sure but it will cost you will you pay the fee for the information 1. yes i will pay the 1000$ or also known all my money 2. no'))
+            if val2 == 1
+                print("congrats you're now broke but atleast you got the information or so you thought ")
+                print('because what the information brokey says next makes you think you have wasted that money')
+                print("he said santa isn't real and then just walked away")
+                print('GAME OVER how will you now travel to where santa is kidnapped even if you dont know where that is')
     
     
